@@ -9,3 +9,4 @@ sudo apt-get install -y git
 sudo apt-get install -y zsh
 sudo apt-get install -y synaptic
 sudo apt-get install -y ruby-full
+sudo apt-get install -y fonts-powerline

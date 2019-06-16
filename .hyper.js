@@ -1,7 +1,7 @@
 module.exports = {
     config: {
       fontSize: 14,
-      fontFamily: "Ubuntu Mono, Menlo",
+      fontFamily: "Fira Code, Ubuntu Mono, Menlo",
       cursorBlink: true
     },
   
