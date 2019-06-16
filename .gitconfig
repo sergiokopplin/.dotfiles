@@ -1,0 +1,65 @@
+[pager]
+	diff = diff-so-fancy | less --tabs=1,5 -RFX
+	show = diff-so-fancy | less --tabs=1,5 -RFX
+
+[alias]
+	a = add
+	up = pull
+	p = push
+	c = commit -m
+	ca = commit -am
+	co = checkout
+	st = status
+	br = branch
+	st = status
+	cl = clone
+	lg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset' --date=relative
+	s = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate --numstat
+	fl = log -u
+
+[core]
+	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
+	editor = code
+	pager = diff-so-fancy | less --tabs=4 -RFX
+
+[push]
+	default = current
+
+[pull]
+	default = current
+
+[apply]
+	whitespace = fix
+	
+[color]
+	ui = true
+
+[color "diff"]
+	meta = 227
+	commit = 227 bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+[user]
+	name = Sergio Kopplin
+	email = sergiokopplin@gmail.com
