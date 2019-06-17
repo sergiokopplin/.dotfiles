@@ -14,7 +14,7 @@ source $ZSH/oh-my-zsh.sh
 # export PATH=$PATH:$ANDROID_HOME/platform-tools
 # alias run-android="~/Android/Sdk/emulator/emulator -avd Pixel_3_API_28"
 
-# export PATH=~/.local/bin:$PATH
+export PATH=~/.local/bin:$PATH
 
 SPACESHIP_PROMPT_ORDER=(
   user          # Username section

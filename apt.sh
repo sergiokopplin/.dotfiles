@@ -10,3 +10,5 @@ sudo apt-get install -y zsh
 sudo apt-get install -y synaptic
 sudo apt-get install -y ruby-full
 sudo apt-get install -y fonts-powerline
+sudo apt-get install -y python3-pip # amazon
+sudo apt-get install -y jq # amazon

@@ -36,3 +36,6 @@
     -
         description: generate ssh key file
         command: . ssh.sh
+    -
+        description: configures amazon
+        command: . amazon.sh
