@@ -1,8 +1,9 @@
-Hello
+Tested on [Ziron OS](https://zorinos.com/).
 
-Requirements
+**Git** Required.
 
 ```
-sudo apt-get install git
-git clone & ./install
+git clone https://github.com/sergiokopplin/.dotfiles.git ~/.dotfiles &&
+cd ~/.dotfiles &&
+./install
 ```
