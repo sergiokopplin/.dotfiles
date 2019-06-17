@@ -45,3 +45,15 @@ zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 zplugin light lukechilds/zsh-nvm
 zplugin light chrissicool/zsh-256color
+
+alias deploy="
+  . ~/aws-sts-assumerole/assumerole &&
+  cd ~/Desktop/edu-ssr &&
+  rm -rf ./.npmrc &&
+  rm -rf node_modules && 
+  rm -rf build &&
+  rm -rf coverage &&
+  nvm use &&
+  npm i &&
+  npm run deploy:dev:edugle
+"
