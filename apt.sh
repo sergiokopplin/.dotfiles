@@ -12,3 +12,7 @@ sudo apt-get install -y ruby-full
 sudo apt-get install -y fonts-powerline
 sudo apt-get install -y python3-pip # amazon
 sudo apt-get install -y jq # amazon
+sudo add-apt-repository ppa:openjdk-r/ppa -y #jdk
+sudo apt-get update -y #jdk
+sudo apt-get install openjdk-8-jdk -y #
+sudo apt-get install gcc-multilib lib32z1 lib32stdc++6 #jdk
