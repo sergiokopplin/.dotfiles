@@ -1,4 +1,6 @@
 export ZSH="/home/kopplin/.oh-my-zsh"
+export NVM_AUTO_USE=true
+export PATH=~/.local/bin:$PATH
 
 ZSH_THEME="spaceship"
 
@@ -13,8 +15,6 @@ source $ZSH/oh-my-zsh.sh
 # export PATH=$PATH:$ANDROID_HOME/tools
 # export PATH=$PATH:$ANDROID_HOME/platform-tools
 # alias run-android="~/Android/Sdk/emulator/emulator -avd Pixel_3_API_28"
-
-export PATH=~/.local/bin:$PATH
 
 SPACESHIP_PROMPT_ORDER=(
   user          # Username section
@@ -44,7 +44,7 @@ zplugin light zdharma/fast-syntax-highlighting
 zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 zplugin light lukechilds/zsh-nvm
-zplugin light chrissicool/zsh-256color
+zplugin light lukechilds/zsh-better-npm-completion
 
 alias deploy="
   . ~/aws-sts-assumerole/assumerole &&
