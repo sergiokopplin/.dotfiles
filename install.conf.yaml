@@ -16,6 +16,7 @@
     ~/.hyper.js: .hyper.js
     ~/.gitconfig: .gitconfig
     ~/.zshrc: .zshrc
+    ~/.imwheelrc: .imwheelrc
 
 - shell:
     -
