@@ -26,3 +26,6 @@ echo "Installing Steam"
 wget -O ~/Downloads/Steam.db https://steamcdn-a.akamaihd.net/client/installer/steam.deb
 sudo dpkg -i ~/Downloads/Steam.db
 sudo rm -rf ~/Downloads/Steam.db
+
+echo "Installing Docker"
+curl -fsSL get.docker.com | CHANNEL=test sh
