@@ -26,6 +26,9 @@
         description: configures system
         command: . system.sh
     -
+        description: configures android folders
+        command: . android.sh
+    -
         description: installing fonts
         command: . lib/top-programming-fonts/install.sh
     -

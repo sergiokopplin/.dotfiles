@@ -11,11 +11,11 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# jdk
+# jdk / android studio
 export ANDROID_HOME=~/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
-# alias run-android="~/Android/Sdk/emulator/emulator -avd Pixel_3_API_28"
+alias run-android="~/Android/Sdk/emulator/emulator -avd Pixel_3_API_28"
 
 SPACESHIP_PROMPT_ORDER=(
   user          # Username section
