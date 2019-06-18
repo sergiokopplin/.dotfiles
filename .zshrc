@@ -58,3 +58,9 @@ alias deploy="
   npm i &&
   npm run deploy:dev:edugle
 "
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/sls.zsh ]] && . /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/sls.zsh
