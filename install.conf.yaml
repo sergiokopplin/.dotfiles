@@ -22,6 +22,9 @@
         description: installing submodules
         command: git submodule update --init --recursive
     -
+        description: configures system
+        command: . system.sh
+    -
         description: installing fonts
         command: . lib/top-programming-fonts/install.sh
     -
