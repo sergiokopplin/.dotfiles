@@ -25,3 +25,8 @@ Then:
 - Manually install inside Android Studio the Pixel 3 with api v28;
 - Download x86 options for the sdk version inside tools/sdk manager;
 - Open it via -> "emulator -avd Pixel_3_API_28";
+
+Then:
+
+- Updates keyboard shortcuts using keyboard.configs file;
+- Updates keyboard layout using usr/share/X11/xkb/symbols file;
