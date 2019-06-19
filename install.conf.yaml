@@ -48,3 +48,6 @@
     -
         description: installs npm packages & node versions
         command: . npm-node.sh
+    -
+        description: installs jekyll
+        command: . jekyll.sh
