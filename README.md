@@ -22,5 +22,6 @@ Then:
 
 Then: 
 
-- Manually install inside Android Studio the Pixel 3 with api v28.
+- Manually install inside Android Studio the Pixel 3 with api v28;
+- Download x86 options for the sdk version inside tools/sdk manager;
 - Open it via -> "emulator -avd Pixel_3_API_28";
