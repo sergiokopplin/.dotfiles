@@ -15,4 +15,5 @@ sudo apt-get install -y jq # amazon
 sudo add-apt-repository ppa:openjdk-r/ppa -y #jdk - android studio
 sudo apt-get install openjdk-8-jdk -y #jdk - android studio
 sudo apt-get install gcc-multilib lib32z1 lib32stdc++6 #jdk - android studio
+sudo apt-get install -y qemu-kvm #jdk - android studio
 sudo apt-get install -y mysql-workbench
