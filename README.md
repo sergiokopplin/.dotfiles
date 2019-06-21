@@ -10,7 +10,7 @@ cd ~/.dotfiles &&
 
 Also, but manually:
 
-- Download [Android Studio](https://developer.android.com/studio/index.html);
+-   Download [Android Studio](https://developer.android.com/studio/index.html);
 
 Then, after downloading, put contents inside ~/Android/Sdk.
 
@@ -20,12 +20,12 @@ Then:
 ~/AndroidSdk/android-studio/bin/studio.sh
 ```
 
-Then: 
+Then:
 
-- Manually install inside Android Studio the Pixel 3 with api v28;
-- Download x86 options for the sdk version inside tools/sdk manager;
-- Open it via -> "emulator -avd Pixel_3_API_28";
-- Then updates some permissions:
+-   Manually install inside Android Studio the Pixel 3 with api v28;
+-   Download x86 options for the sdk version inside tools/sdk manager;
+-   Open it via -> "emulator -avd Pixel_3_API_28";
+-   Then updates some permissions:
 
 ```
 sudo adduser your_name kvm
@@ -33,5 +33,9 @@ sudo adduser your_name kvm
 
 Then:
 
-- Updates keyboard shortcuts using keyboard.configs file;
-- Updates keyboard layout using usr/share/X11/xkb/symbols file;
+-   Updates keyboard shortcuts using keyboard.configs file;
+-   Updates keyboard layout using usr/share/X11/xkb/symbols file;
+
+Then:
+
+-   https://github.com/cheesecakeufo/komorebi
