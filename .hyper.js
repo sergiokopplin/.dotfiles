@@ -13,6 +13,8 @@ module.exports = {
       "pane:splitVertical": "ctrl+d",
       "pane:splitHorizontal": "ctrl+shift+d",
       "tab:new": "ctrl+t",
+      "pane:next": "ctrl+2",
+      "pane:prev": "ctrl+1",
     },
   
     plugins: ["hyper-horizon-theme", "hypercwd"]
