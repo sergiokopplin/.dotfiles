@@ -37,3 +37,8 @@ docker-compose --version
 
 echo "Installing Postman"
 sudo snap install postman
+
+echo "Intalling Terminus"
+wget -O ~/Downloads/Terminus.db https://github.com/Eugeny/terminus/releases/download/v1.0.82/terminus-1.0.82-linux.deb
+sudo dpkg -i ~/Downloads/Terminus.db
+sudo rm -rf ~/Downloads/Terminus.db

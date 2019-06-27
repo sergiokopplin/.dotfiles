@@ -1,0 +1,94 @@
+hotkeys:
+  shell: {}
+  profile: {}
+  pane-nav-up: []
+  pane-nav-down: []
+  pane-nav-left:
+    - - Ctrl-Alt-1
+  pane-nav-right:
+    - - Ctrl-Alt-2
+  split-bottom:
+    - - Ctrl-S
+  split-right:
+    - - Ctrl-D
+  tab-1: []
+  tab-2: []
+  tab-3: []
+  tab-4: []
+  tab-5: []
+  tab-6: []
+  tab-7: []
+  tab-8: []
+  tab-9: []
+  tab-10: []
+  next-tab:
+    - - Ctrl-2
+  previous-tab:
+    - - Ctrl-1
+  close-tab:
+    - - Ctrl-W
+  rename-tab: []
+  toggle-fullscreen: []
+  toggle-window: []
+  new-window: []
+  search: []
+  ctrl-c:
+    - - Ctrl-C
+  new-tab:
+    - - Ctrl-T
+  reset-zoom: []
+  zoom-in:
+    - - Ctrl-=
+  zoom-out:
+    - - Ctrl--
+  clear:
+    - - Ctrl-L
+  delete-next-word: []
+  delete-previous-word: []
+  next-word: []
+  previous-word: []
+  end:
+    - - Ctrl-Right
+  home:
+    - - Ctrl-Left
+  paste:
+    - - Ctrl-V
+  copy:
+    - - Ctrl-C
+  settings:
+    - - 'Ctrl-,'
+  close-pane:
+    - - Ctrl-Alt-W
+ssh: {}
+terminal:
+  colorScheme:
+    name: Dracula
+    foreground: '#f8f8f2'
+    background: '#1e1f29'
+    cursor: '#bbbbbb'
+    colors:
+      - '#000000'
+      - '#ff5555'
+      - '#50fa7b'
+      - '#f1fa8c'
+      - '#bd93f9'
+      - '#ff79c6'
+      - '#8be9fd'
+      - '#bbbbbb'
+      - '#555555'
+      - '#ff5555'
+      - '#50fa7b'
+      - '#f1fa8c'
+      - '#bd93f9'
+      - '#ff79c6'
+      - '#8be9fd'
+      - '#ffffff'
+  ligatures: true
+  font: Fira Code
+  background: colorScheme
+  fontSize: 18
+appearance:
+  theme: Compact
+  tabsLocation: bottom
+enableAnalytics: true
+enableWelcomeTab: false
