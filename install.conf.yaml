@@ -37,9 +37,6 @@
         description: install snap/debian apps
         command: . snap-debian.sh
     -
-        description: install zsh
-        command: . zsh.sh
-    -
         description: generate ssh key file
         command: . ssh.sh
     -
@@ -48,3 +45,6 @@
     -
         description: installs jekyll
         command: . jekyll.sh
+    -
+        description: install zsh
+        command: . zsh.sh
