@@ -1,14 +1,10 @@
-Copy Screenshot to clipboard Shift + Ctrl + Alt + 3
-Close Window Ctrl + Q
-Maximize Window Ctrl + Alt + Up
-View Split on left Ctrl + Alt + Left
-View Split on right Ctrl + Alt + Right
-Show the overview Ctrl + Space
-
----
-
-Additional Layout options: Ctrl Position: Swap Left Alt with Left Ctrl
-
----
-
 Key to choose the 3rd level: Any Win :)
+
+---
+
+Copy Screenshot to clipboard Shift + Ctrl + Alt + #
+Close Window Alt + Q
+Maximize Window Shift + Ctrl + Up
+View Split on left Shift + Ctrl + Left
+View Split on right Shift + Ctrl + Right
+Show the overview Alt + Space
