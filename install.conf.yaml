@@ -15,8 +15,6 @@
     ~/.bash_logout: bash_logout
     ~/.hyper.js: .hyper.js
     ~/.gitconfig: .gitconfig
-    ~/.zshrc: .zshrc
-    ~/.config/terminus/config.yaml: terminus.yaml
 
 - shell:
     -
@@ -49,3 +47,7 @@
     -
         description: install zsh
         command: . zsh.sh
+
+- link:
+    ~/.zshrc: .zshrc
+    ~/.config/terminus/config.yaml: terminus.yaml
