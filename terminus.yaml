@@ -42,7 +42,7 @@ terminal:
       - '#ffffff'
   font: 'Fira Code, Ubuntu Mono, Menlo, Fira Code, Monaco'
   ligatures: true
-  fontSize: 18
+  fontSize: 16
   background: colorScheme
   environment: {}
 appearance:
