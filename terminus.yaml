@@ -14,6 +14,8 @@ hotkeys:
     - - Ctrl-W
   new-tab:
     - - Ctrl-T
+  ctrl-c:
+    - - Alt-C
 ssh: {}
 terminal:
   colorScheme:
@@ -38,7 +40,7 @@ terminal:
       - '#ff79c6'
       - '#8be9fd'
       - '#ffffff'
-  font: Fira Code
+  font: 'Fira Code, Ubuntu Mono, Menlo, Fira Code, Monaco'
   ligatures: true
   fontSize: 18
   background: colorScheme

@@ -49,7 +49,6 @@ zplugin light lukechilds/zsh-better-npm-completion
 
 alias deploy="
   . ~/aws-sts-assumerole/assumerole &&
-  cd ~/Desktop/edu-ssr &&
   rm -rf ./.npmrc &&
   rm -rf node_modules && 
   rm -rf build &&
