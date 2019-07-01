@@ -87,6 +87,7 @@ terminal:
   font: Fira Code
   background: colorScheme
   fontSize: 18
+  environment: {}
 appearance:
   theme: Compact
   tabsLocation: bottom
