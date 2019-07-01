@@ -5,6 +5,7 @@ Tested on [Ziron OS](https://zorinos.com/).
 Requirements:
 **Git** Required.
 **SSH** configured.
+**Chrome** Installed.
 
 ```
 git clone https://github.com/sergiokopplin/.dotfiles.git ~/.dotfiles &&
@@ -15,6 +16,6 @@ cd ~/.dotfiles &&
 Also, but manually:
 
 - Download [Android Studio](https://developer.android.com/studio/index.html);
-- Extract content inside ```~/Android/Sdk```;
-- Then ```~/AndroidSdk/android-studio/bin/studio.sh```;
+- Extract content inside `~/Android/Sdk`;
+- Then `~/AndroidSdk/android-studio/bin/studio.sh`;
 - Updates keyboard shortcuts using keyboard.configs file;
