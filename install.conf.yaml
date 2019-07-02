@@ -36,4 +36,4 @@
 
 - link:
     ~/.zshrc: .zshrc
-    ~/.config/terminus/config.yaml: terminus.yaml
+    ~/.config/terminator/config: terminator

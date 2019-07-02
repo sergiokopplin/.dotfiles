@@ -1,0 +1,112 @@
+[global_config]
+  always_split_with_profile = True
+  borderless = True
+  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  homogeneous_tabbar = False
+  inactive_color_offset = 0.40243902439
+  scroll_tabbar = True
+  title_font = Fira Code 14
+  title_use_system_font = False
+  window_state = maximise
+[keybindings]
+  close_term = <Primary>w
+  copy = <Primary>c
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = e0f5897f-dce0-4541-ab5a-8d9b9d722f78
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1056
+      title = kopplin@predator: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = Dracula
+      type = Terminal
+      uuid = e0f5897f-dce0-4541-ab5a-8d9b9d722f78
+  [[New Layout]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = d221cb4d-6524-4aa0-ac7b-c6a0d8497e67
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1056
+      title = kopplin@predator: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 958
+      ratio = 0.500261096606
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = Dracula
+      type = Terminal
+      uuid = e0f5897f-dce0-4541-ab5a-8d9b9d722f78
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = Dracula
+      type = Terminal
+      uuid = d221cb4d-6524-4aa0-ac7b-c6a0d8497e67
+  [[New Layout 1]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = d221cb4d-6524-4aa0-ac7b-c6a0d8497e67
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 1920, 1056
+      title = kopplin@predator: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 958
+      ratio = 0.500261096606
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = Dracula
+      type = Terminal
+      uuid = e0f5897f-dce0-4541-ab5a-8d9b9d722f78
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = Dracula
+      type = Terminal
+      uuid = d221cb4d-6524-4aa0-ac7b-c6a0d8497e67
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.65
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+  [[Dracula]]
+    background_color = "#ffffff"
+    background_darkness = 0.95
+    background_type = transparent
+    copy_on_selection = True
+    cursor_color = "#bd93f9"
+    cursor_color_fg = False
+    font = Ubuntu Mono 14
+    foreground_color = "#000000"
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    scrollback_infinite = True
+    show_titlebar = False
+    use_system_font = False
+    use_theme_colors = True
