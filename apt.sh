@@ -18,3 +18,4 @@ sudo apt-get install -y gcc-multilib lib32z1 lib32stdc++6 #jdk - android studio
 sudo apt-get install -y qemu-kvm #jdk - android studio
 sudo apt-get install -y mysql-workbench
 sudo apt-get install -y terminator
+sudo apt-get install -y flameshot # screenshots
