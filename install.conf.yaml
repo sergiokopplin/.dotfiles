@@ -29,8 +29,6 @@
       command: . ssh.sh
     - description: configures amazon
       command: . amazon.sh
-    - description: installs jekyll
-      command: . jekyll.sh
     - description: install zsh
       command: . zsh.sh
 
