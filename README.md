@@ -20,3 +20,8 @@ Also, but manually:
 - Extract content inside `~/Android/Sdk`;
 - Then `~/AndroidSdk/android-studio/bin/studio.sh`;
 - Updates keyboard shortcuts using keyboard.configs file;
+
+Also, some gnome extenions:
+
+- Remove ALt+Tab delay;
+- Window Corner Preview;
