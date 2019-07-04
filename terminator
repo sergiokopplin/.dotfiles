@@ -85,66 +85,6 @@
       profile = Dracula
       type = Terminal
       uuid = e0f5897f-dce0-4541-ab5a-8d9b9d722f78
-  [[New Layout]]
-    [[[child0]]]
-      fullscreen = False
-      last_active_term = d221cb4d-6524-4aa0-ac7b-c6a0d8497e67
-      last_active_window = True
-      maximised = True
-      order = 0
-      parent = ""
-      position = 0:0
-      size = 1920, 1056
-      title = kopplin@predator: ~
-      type = Window
-    [[[child1]]]
-      order = 0
-      parent = child0
-      position = 958
-      ratio = 0.500261096606
-      type = HPaned
-    [[[terminal2]]]
-      order = 0
-      parent = child1
-      profile = Dracula
-      type = Terminal
-      uuid = e0f5897f-dce0-4541-ab5a-8d9b9d722f78
-    [[[terminal3]]]
-      order = 1
-      parent = child1
-      profile = Dracula
-      type = Terminal
-      uuid = d221cb4d-6524-4aa0-ac7b-c6a0d8497e67
-  [[New Layout 1]]
-    [[[child0]]]
-      fullscreen = False
-      last_active_term = d221cb4d-6524-4aa0-ac7b-c6a0d8497e67
-      last_active_window = True
-      maximised = True
-      order = 0
-      parent = ""
-      position = 0:0
-      size = 1920, 1056
-      title = kopplin@predator: ~
-      type = Window
-    [[[child1]]]
-      order = 0
-      parent = child0
-      position = 958
-      ratio = 0.500261096606
-      type = HPaned
-    [[[terminal2]]]
-      order = 0
-      parent = child1
-      profile = Dracula
-      type = Terminal
-      uuid = e0f5897f-dce0-4541-ab5a-8d9b9d722f78
-    [[[terminal3]]]
-      order = 1
-      parent = child1
-      profile = Dracula
-      type = Terminal
-      uuid = d221cb4d-6524-4aa0-ac7b-c6a0d8497e67
 [plugins]
 [profiles]
   [[default]]
