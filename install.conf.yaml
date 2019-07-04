@@ -31,6 +31,8 @@
       command: . amazon.sh
     - description: install zsh
       command: . zsh.sh
+    - description: configures terminator
+      command: . terminator.sh
 
 - link:
     ~/.zshrc: .zshrc

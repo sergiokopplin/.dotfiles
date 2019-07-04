@@ -1,7 +1,7 @@
 [global_config]
   always_split_with_profile = True
   borderless = True
-  enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  enabled_plugins = EditorPlugin, TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   inactive_color_offset = 0.792682926829
   tab_position = bottom
   title_font = Fira Code 14
@@ -93,6 +93,10 @@
       type = Terminal
       uuid = e0f5897f-dce0-4541-ab5a-8d9b9d722f78
 [plugins]
+  [[EditorPlugin]]
+    command = code --goto {filepath}:{line}:{column}
+    groups = file line
+    match = ([^ \t\n\r\f\v:]+?):([0-9]+)
 [profiles]
   [[default]]
     background_darkness = 0.65
