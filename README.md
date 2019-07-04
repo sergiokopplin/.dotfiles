@@ -25,3 +25,4 @@ Also, some gnome extenions:
 
 - Remove ALt+Tab delay;
 - Window Corner Preview;
+- [Bat](https://github.com/sharkdp/bat/releases);

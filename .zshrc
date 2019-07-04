@@ -1,3 +1,4 @@
+alias cat="bat"
 export ZSH="/home/kopplin/.oh-my-zsh"
 export NVM_AUTO_USE=true
 export PATH=~/.local/bin:$PATH

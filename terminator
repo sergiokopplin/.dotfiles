@@ -17,7 +17,7 @@
   copy = <Primary>c
   cycle_next = None
   cycle_prev = None
-  edit_tab_title = None
+  edit_tab_title = F2
   edit_terminal_title = None
   edit_window_title = None
   full_screen = None
