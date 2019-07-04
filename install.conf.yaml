@@ -11,6 +11,7 @@
 
 - link:
     ~/.gitconfig: .gitconfig
+    ~/.bash_profile: .bash_profile
 
 - shell:
     - description: installing submodules
@@ -21,7 +22,7 @@
       command: . android.sh
     - description: installing fonts
       command: . lib/top-programming-fonts/install.sh
-    - description: updates apt apps
+    - description: updates apt
       command: . apt.sh
     - description: install snap/debian apps
       command: . snap-debian.sh
