@@ -2,9 +2,8 @@
   always_split_with_profile = True
   borderless = True
   enabled_plugins = TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
-  homogeneous_tabbar = False
   inactive_color_offset = 0.792682926829
-  scroll_tabbar = True
+  tab_position = bottom
   title_font = Fira Code 14
   title_use_system_font = False
   window_state = maximise
@@ -61,7 +60,15 @@
   search = None
   split_horiz = <Primary><Shift>s
   split_vert = <Primary><Shift>d
-  switch_to_tab_1 = None
+  switch_to_tab_1 = <Primary>1
+  switch_to_tab_2 = <Primary>2
+  switch_to_tab_3 = <Primary>3
+  switch_to_tab_4 = <Primary>4
+  switch_to_tab_5 = <Primary>5
+  switch_to_tab_6 = <Primary>6
+  switch_to_tab_7 = <Primary>7
+  switch_to_tab_8 = <Primary>8
+  switch_to_tab_9 = <Primary>9
   toggle_scrollbar = None
   toggle_zoom = None
   ungroup_all = None
