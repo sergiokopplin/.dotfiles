@@ -1,4 +1,5 @@
-alias cat="bat"
+alias cat='bat'
+
 export ZSH="/home/kopplin/.oh-my-zsh"
 export NVM_AUTO_USE=true
 export PATH=~/.local/bin:$PATH
@@ -47,6 +48,7 @@ zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 zplugin light lukechilds/zsh-nvm
 zplugin light lukechilds/zsh-better-npm-completion
+zplugin light supercrabtree/k
 
 alias deploy="
   . ~/aws-sts-assumerole/assumerole &&
@@ -64,3 +66,5 @@ alias deploy="
 # tabtab source for sls package
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/sls.zsh ]] && . /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/sls.zsh
+
+fortune /usr/share/games/fortunes/brasil | cowsay | lolcat

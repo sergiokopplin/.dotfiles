@@ -33,6 +33,8 @@
       command: . zsh.sh
     - description: configures terminator
       command: . terminator.sh
+    - description: fun configurator
+      command: . fun.sh
 
 - link:
     ~/.zshrc: .zshrc
