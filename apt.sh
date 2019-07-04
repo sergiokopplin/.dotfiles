@@ -19,3 +19,5 @@ sudo apt-get install -y qemu-kvm #jdk - android studio
 sudo apt-get install -y mysql-workbench
 sudo apt-get install -y terminator
 sudo apt-get install -y flameshot # screenshots
+sudo add-apt-repository -y ppa:lazygit-team/release
+sudo apt-get install -y lazygit
