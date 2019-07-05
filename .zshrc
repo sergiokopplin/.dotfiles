@@ -67,4 +67,5 @@ alias deploy="
 # uninstall by removing these lines or running `tabtab uninstall sls`
 [[ -f /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/sls.zsh ]] && . /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/sls.zsh
 
-fortune /usr/share/games/fortunes/brasil | cowsay | lolcat
+fortune | cowsay | lolcat
+# fortune /usr/share/games/fortunes/brasil | cowsay | lolcat
