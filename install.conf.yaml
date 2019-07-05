@@ -13,30 +13,30 @@
     ~/.gitconfig: .gitconfig
     ~/.bash_profile: .bash_profile
     ~/.config/libinput-gestures.conf: libinput-gestures.conf
-# - shell:
-#     - description: installing submodules
-#       command: git submodule update --init --recursive
-#     - description: configures system
-#       command: . system.sh
-#     - description: configures android folders
-#       command: . android.sh
-#     - description: installing fonts
-#       command: . lib/top-programming-fonts/install.sh
-#     - description: updates apt
-#       command: . apt.sh
-#     - description: install snap/debian apps
-#       command: . snap-debian.sh
-#     - description: generate ssh key file
-#       command: . ssh.sh
-#     - description: configures amazon
-#       command: . amazon.sh
-#     - description: install zsh
-#       command: . zsh.sh
-#     - description: configures terminator
-#       command: . terminator.sh
-#     - description: fun configurator
-#       command: . fun.sh
+- shell:
+    - description: installing submodules
+      command: git submodule update --init --recursive
+    - description: configures system
+      command: . system.sh
+    - description: configures android folders
+      command: . android.sh
+    - description: installing fonts
+      command: . lib/top-programming-fonts/install.sh
+    - description: updates apt
+      command: . apt.sh
+    - description: install snap/debian apps
+      command: . snap-debian.sh
+    - description: generate ssh key file
+      command: . ssh.sh
+    - description: configures amazon
+      command: . amazon.sh
+    - description: install zsh
+      command: . zsh.sh
+    - description: configures terminator
+      command: . terminator.sh
+    - description: fun configurator
+      command: . fun.sh
 
-# - link:
-#     ~/.zshrc: .zshrc
-#     ~/.config/terminator/config: terminator
+- link:
+    ~/.zshrc: .zshrc
+    ~/.config/terminator/config: terminator

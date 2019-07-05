@@ -1,3 +1,5 @@
+source ~/.bash_profile
+
 alias cat='bat'
 
 export ZSH="/home/kopplin/.oh-my-zsh"
@@ -43,6 +45,7 @@ source '/home/kopplin/.zplugin/bin/zplugin.zsh'
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
 ### End of Zplugin's installer chunk
+
 zplugin light zdharma/fast-syntax-highlighting
 zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
@@ -60,12 +63,6 @@ alias deploy="
   npm i &&
   npm run deploy:dev:edugle
 "
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/sls.zsh ]] && . /home/kopplin/Desktop/projects/edu-workspace/projects/edu-cms-api/node_modules/tabtab/.completions/sls.zsh
 
 fortune | cowsay | lolcat
 # fortune /usr/share/games/fortunes/brasil | cowsay | lolcat
