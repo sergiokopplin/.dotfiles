@@ -105,11 +105,10 @@
   [[Dracula]]
     background_color = "#ffffff"
     background_darkness = 0.9
-    background_type = transparent
     copy_on_selection = True
     cursor_color = "#bd93f9"
     cursor_color_fg = False
-    font = Ubuntu Mono 14
+    font = UbuntuMono Nerd Font 14
     foreground_color = "#000000"
     palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
     scrollback_infinite = True
