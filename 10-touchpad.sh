@@ -10,3 +10,5 @@ sudo make install (or sudo ./libinput-gestures-setup install)
 
 libinput-gestures-setup autostart
 libinput-gestures-setup start
+
+echo "\e[96m\e[1m\e[4mdone\e[0m"

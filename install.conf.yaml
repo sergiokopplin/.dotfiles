@@ -13,29 +13,19 @@
     ~/.gitconfig: .gitconfig
     ~/.bash_profile: .bash_profile
     ~/.config/libinput-gestures.conf: libinput-gestures.conf
+    
 - shell:
-    - description: installing submodules
-      command: git submodule update --init --recursive
-    - description: configures system
-      command: . system.sh
-    - description: configures android folders
-      command: . android.sh
-    - description: installing fonts
-      command: . lib/top-programming-fonts/install.sh
-    - description: updates apt
-      command: . apt.sh
-    - description: install snap/debian apps
-      command: . snap-debian.sh
-    - description: generate ssh key file
-      command: . ssh.sh
-    - description: configures amazon
-      command: . amazon.sh
-    - description: install zsh
-      command: . zsh.sh
-    - description: configures terminator
-      command: . terminator.sh
-    - description: fun configurator
-      command: . fun.sh
+    - git submodule update --init --recursive
+    - . ./01-system.sh
+    - . ./02-android.sh
+    - . ./03-fonts.sh
+    - . ./04-apt.sh
+    - . ./05-snap-debian.sh
+    - . ./06-amazon.sh
+    - . ./07-zsh.sh
+    - . ./08-terminator.sh
+    - . ./09-fun.sh
+    - . ./10-touchpad.sh
 
 - link:
     ~/.zshrc: .zshrc

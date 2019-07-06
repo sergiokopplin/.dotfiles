@@ -27,3 +27,14 @@ Also, some gnome extenions:
 - Window Corner Preview;
 - [Bat](https://github.com/sharkdp/bat/releases);
 - Dracula on Chrome DevTools;
+
+Also
+
+Key to choose the 3rd level: Any Win :)
+
+---
+
+Show the overview   Alt + Space
+Maximize Window     Shift + Ctrl + Alt + Up
+View Split on left  Shift + Ctrl + Alt + Left
+View Split on right Shift + Ctrl + Alt + Right

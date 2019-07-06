@@ -16,3 +16,5 @@ if [ ! -d "$HOME/.oh-my-zsh/custom/themes/spaceship-prompt" ]; then
 fi
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+
+echo "\e[96m\e[1m\e[4mdone\e[0m"
