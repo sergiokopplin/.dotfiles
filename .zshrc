@@ -31,6 +31,8 @@ zplugin light lukechilds/zsh-nvm
 zplugin light lukechilds/zsh-better-npm-completion
 zplugin light supercrabtree/k
 zplugin light romkatv/powerlevel10k
+zplugin ice as"program" pick"bin/git-dsf"
+zplugin light zdharma/zsh-diff-so-fancy
 
 #####################################
 #### POWERLEVEL9K CONFIGS        ####
