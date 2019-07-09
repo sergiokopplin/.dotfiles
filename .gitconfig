@@ -1,22 +1,4 @@
-[alias]
-	a = add
-	up = pull
-	p = push
-	c = commit -m
-	ca = commit -am
-	co = checkout
-	st = status
-	br = branch
-	st = status
-	cl = clone
-	lg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)%an%d%Creset %s %Cgreen(%cr)%Creset' --date=relative
-	s = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate
-	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate --numstat
-	fl = log -u
-
 [core]
-	excludesfile = ~/.gitignore
-	attributesfile = ~/.gitattributes
 	editor = code
 	pager = diff-so-fancy | less -FXRi
 
