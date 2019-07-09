@@ -22,10 +22,3 @@ alias upgrade-system="
   cd ~/.dotfiles &&
   ./install
 "
-
-alias ga="git add"
-alias gs="git status"
-alias gp="git push"
-alias gc="git checkout"
-alias gb="git branch"
-alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
