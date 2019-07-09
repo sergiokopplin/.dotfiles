@@ -30,23 +30,20 @@ zplugin light zsh-users/zsh-completions
 zplugin light lukechilds/zsh-nvm
 zplugin light lukechilds/zsh-better-npm-completion
 zplugin light supercrabtree/k
-zplugin light romkatv/powerlevel10k
 zplugin ice as"program" pick"bin/git-dsf"
 zplugin light zdharma/zsh-diff-so-fancy
+zplugin light denysdovhan/spaceship-prompt
 
 #####################################
-#### POWERLEVEL9K CONFIGS        ####
+#### SPACESHIP CONFIGS           ####
 #####################################
 
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL9K_RPROMPT_ICON_LEFT=true
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir_writable user dir vcs nvm)
-POWERLEVEL9K_DISABLE_RPROMPT=true
-POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_last"
-POWERLEVEL9K_LEFT_PROMPT_FIRST_SEGMENT_START_SYMBOL="\ue0b2"
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX="%F\u256D\u2500%f"
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX="%F\u2570\uf460%f "
+SPACESHIP_PACKAGE_SHOW="false"
+SPACESHIP_NODE_SYMBOL=""
+SPACESHIP_GIT_SYMBOL=""
+SPACESHIP_GIT_BRANCH_PREFIX=""
+SPACESHIP_USER_SHOW="always"
+SPACESHIP_CHAR_SYMBOL='\uE0B1 '
 
 #####################################
 #### FUN                         ####
