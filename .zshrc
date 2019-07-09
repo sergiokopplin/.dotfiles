@@ -35,7 +35,7 @@ zplugin light zdharma/zsh-diff-so-fancy
 zplugin light denysdovhan/spaceship-prompt
 
 #####################################
-#### SPACESHIP CONFIGS           ####
+#### SHELL CONFIGS               ####
 #####################################
 
 SPACESHIP_PACKAGE_SHOW="false"
@@ -43,7 +43,7 @@ SPACESHIP_NODE_SYMBOL=""
 SPACESHIP_GIT_SYMBOL=""
 SPACESHIP_GIT_BRANCH_PREFIX=""
 SPACESHIP_USER_SHOW="always"
-SPACESHIP_CHAR_SYMBOL='\uE0B1 '
+SPACESHIP_CHAR_SYMBOL='λ '
 
 #####################################
 #### FUN                         ####
