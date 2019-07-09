@@ -103,6 +103,7 @@
     background_type = transparent
     cursor_color = "#aaaaaa"
   [[Dracula]]
+    allow_bold = False
     background_color = "#ffffff"
     background_darkness = 0.9
     copy_on_selection = True
