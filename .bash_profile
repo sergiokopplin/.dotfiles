@@ -17,3 +17,8 @@ alias deploy="
   nvm use && npm i &&
   npm run deploy:dev:edugle
 "
+
+alias upgrade-system="
+  cd ~/.dotfiles &&
+  ./install
+"
