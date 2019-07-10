@@ -1,5 +1,3 @@
-export ZSH="/home/kopplin/.oh-my-zsh"
-export NVM_AUTO_USE=true
 export PATH=~/.local/bin:$PATH
 
 # jdk / android studio
@@ -22,3 +20,4 @@ alias upgrade-system="
   cd ~/.dotfiles &&
   ./install
 "
+

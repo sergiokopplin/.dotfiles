@@ -1,4 +1,10 @@
 #####################################
+#### BASH CONFIGS                ####
+#####################################
+
+source ~/.bash_profile
+
+#####################################
 #### ZSH CONFIGS                 ####
 #####################################
 
@@ -9,18 +15,15 @@ plugins=(
   z
 )
 
-#####################################
-#### SOURCE CONFIGS              ####
-#####################################
+export ZSH="/home/kopplin/.oh-my-zsh"
 
-source ~/.bash_profile
 source $ZSH/oh-my-zsh.sh
-source '/home/kopplin/.zplugin/bin/zplugin.zsh'
 
 #####################################
 #### ZPLUGIN CONFIGS             ####
 #####################################
 
+source '/home/kopplin/.zplugin/bin/zplugin.zsh'
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
 
@@ -28,6 +31,7 @@ zplugin light zdharma/fast-syntax-highlighting
 zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 zplugin light lukechilds/zsh-nvm
+export NVM_AUTO_USE=true
 zplugin light lukechilds/zsh-better-npm-completion
 zplugin light supercrabtree/k
 zplugin ice as"program" pick"bin/git-dsf"
