@@ -39,6 +39,7 @@ zplugin light denysdovhan/spaceship-prompt
 #####################################
 
 SPACESHIP_PACKAGE_SHOW="false"
+SPACESHIP_DOCKER_SHOW="false"
 SPACESHIP_NODE_SYMBOL=""
 SPACESHIP_GIT_SYMBOL=""
 SPACESHIP_GIT_BRANCH_PREFIX=""
