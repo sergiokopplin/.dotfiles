@@ -1,3 +1,5 @@
+export NVM_AUTO_USE=true
+
 #####################################
 #### BASH CONFIGS                ####
 #####################################
@@ -31,7 +33,6 @@ zplugin light zdharma/fast-syntax-highlighting
 zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 zplugin light lukechilds/zsh-nvm
-export NVM_AUTO_USE=true
 zplugin light lukechilds/zsh-better-npm-completion
 zplugin light supercrabtree/k
 zplugin ice as"program" pick"bin/git-dsf"
