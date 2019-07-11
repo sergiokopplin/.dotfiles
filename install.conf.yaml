@@ -12,7 +12,6 @@
 - link:
     ~/.gitconfig: .gitconfig
     ~/.bash_profile: .bash_profile
-    ~/.config/libinput-gestures.conf: libinput-gestures.conf
     
 - shell:
     - git submodule update --init --recursive
@@ -30,3 +29,4 @@
 - link:
     ~/.zshrc: .zshrc
     ~/.config/terminator/config: terminator
+    ~/.config/libinput-gestures.conf: libinput-gestures.conf

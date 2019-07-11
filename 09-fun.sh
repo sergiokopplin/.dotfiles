@@ -2,7 +2,18 @@
 
 #fun
 
-sudo apt-get install -y cowsay fortunes
+function checkApt {
+  dpkg -s $1 &> /dev/null  
+
+  if [ $? -ne 0 ]; then
+    sudo apt-get install -y $1
+  else
+    echo "$1 already installed"
+  fi
+}
+
+checkApt cowsay
+checkApt fortunes
 
 if `gem list lolcat -i`; then
   echo "lolcat already installed"
