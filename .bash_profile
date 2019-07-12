@@ -18,6 +18,7 @@ alias deploy="
 
 alias upgrade-system="
   cd ~/.dotfiles &&
+  got pull origin master &&
   ./install
 "
 
