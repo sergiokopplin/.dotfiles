@@ -29,5 +29,7 @@ checkApt gcc-multilib lib32z1 lib32stdc++6    #jdk - android studio
 checkApt qemu-kvm                             #jdk - android studio
 # checkApt mysql-workbench
 checkApt terminator
+checkApt chrome-gnome-shell
+checkApt screenfetch
 
 echo "\e[96m\e[1m\e[4mdone\e[0m"

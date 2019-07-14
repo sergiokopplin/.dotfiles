@@ -1,4 +1,4 @@
-Tested on [Ziron OS](https://zorinos.com/).
+Tested on Ubuntu.
 
 ![image](https://user-images.githubusercontent.com/2743180/60400534-9075c300-9b4b-11e9-9db3-d234c994e29b.png)
 
@@ -16,25 +16,15 @@ cd ~/.dotfiles &&
 
 Also, but manually:
 
-- Download [Android Studio](https://developer.android.com/studio/index.html);
-- Extract content inside `~/Android/Sdk`;
-- Then `~/AndroidSdk/android-studio/bin/studio.sh`;
 - Updates keyboard shortcuts using keyboard.configs file;
-
-Also, some gnome extenions:
-
-- Remove ALt+Tab delay;
-- Window Corner Preview;
+- Gnome Extensions: set, User Themes, Dash to Dock, Caffeine & Dash to Panel;
 - [Bat](https://github.com/sharkdp/bat/releases);
 - Dracula on Chrome DevTools;
-
-Also
-
-Key to choose the 3rd level: Any Win :)
+- Key to choose the 3rd level: Any Win :)
 
 ---
 
 Show the overview   Alt + Space
-Maximize Window     Shift + Ctrl + Alt + Up
+Maximize Window     Shift + Ctrl + Alt + F
 View Split on left  Shift + Ctrl + Alt + Left
 View Split on right Shift + Ctrl + Alt + Right

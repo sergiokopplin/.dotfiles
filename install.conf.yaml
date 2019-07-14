@@ -25,6 +25,7 @@
     - . ./08-terminator.sh
     - . ./09-fun.sh
     - . ./10-touchpad.sh
+    - . ./11-themes.sh
 
 - link:
     ~/.zshrc: .zshrc
