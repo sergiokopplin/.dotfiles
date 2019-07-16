@@ -27,7 +27,9 @@ sudo add-apt-repository -y ppa:openjdk-r/ppa  #jdk - android studio
 checkApt openjdk-8-jdk                        #jdk - android studio
 checkApt gcc-multilib lib32z1 lib32stdc++6    #jdk - android studio
 checkApt qemu-kvm                             #jdk - android studio
-# checkApt mysql-workbench
+sudo add-apt-repository ppa:slimbook/slimbook
+checkApt slimbookbattery
+checkApt mysql-workbench
 checkApt terminator
 checkApt chrome-gnome-shell
 checkApt screenfetch
