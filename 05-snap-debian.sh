@@ -5,7 +5,6 @@
 # sudo snap install whatsdesk
 sudo snap install code --classic
 sudo snap install postman
-sudo snap install android-studio --classic
 
 if [ -x "$(command -v docker)" ]; then
   echo "docker already exists"

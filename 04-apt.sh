@@ -23,11 +23,7 @@ checkApt ruby-full
 checkApt fonts-powerline
 checkApt python3-pip                          #amazon
 checkApt jq                                   #amazon
-sudo add-apt-repository -y ppa:openjdk-r/ppa  #jdk - android studio
-checkApt openjdk-8-jdk                        #jdk - android studio
-checkApt gcc-multilib lib32z1 lib32stdc++6    #jdk - android studio
-checkApt qemu-kvm                             #jdk - android studio
-sudo add-apt-repository ppa:slimbook/slimbook
+sudo add-apt-repository ppa:slimbook/slimbook -y
 checkApt slimbookbattery
 checkApt mysql-workbench
 checkApt terminator
