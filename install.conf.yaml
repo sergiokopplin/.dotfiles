@@ -16,12 +16,10 @@
 - shell:
     - git submodule update --init --recursive
     - . ./01-system.sh
-    - . ./03-fonts.sh
     - . ./04-apt.sh
     - . ./05-snap-debian.sh
     - . ./06-amazon.sh
     - . ./07-zsh.sh
-    - . ./08-terminator.sh
     - . ./09-fun.sh
     - . ./10-touchpad.sh
 

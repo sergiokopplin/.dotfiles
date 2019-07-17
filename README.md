@@ -16,15 +16,11 @@ cd ~/.dotfiles &&
 
 Also, but manually:
 
-- Updates keyboard shortcuts using keyboard.configs file;
-- Gnome Extensions: set, User Themes, Dash to Dock, Caffeine & Dash to Panel;
-- [Bat](https://github.com/sharkdp/bat/releases);
-- Dracula on Chrome DevTools;
-- Key to choose the 3rd level: Any Win :)
-
----
-
-Show the overview   Alt + Space
-Maximize Window     Shift + Ctrl + Alt + F
-View Split on left  Shift + Ctrl + Alt + Left
-View Split on right Shift + Ctrl + Alt + Right
+- [Bat](https://github.com/sharkdp/bat/releases)
+- Dracula Chrome DevTools
+- Key to choose the 3rd level: Any Win
+- Screenshot of an area Ctrl + Shift + Alt + 3
+- Show the overview Alt + Space
+- Maximize Window Shift + Ctrl + Alt + F
+- View Split on left Shift + Ctrl + Alt + {
+- View Split on right Shift + Ctrl + Alt + }
