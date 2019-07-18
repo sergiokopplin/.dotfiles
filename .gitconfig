@@ -13,5 +13,5 @@
 	email = sergiokopplin@gmail.com
 	
 [alias]
-	st = status -sb
+	st = status
 	log = log --all --graph --decorate --oneline --abbrev-commit
