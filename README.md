@@ -1,4 +1,4 @@
-Tested on Ubuntu.
+Tested on Zorin OS 15 Core.
 
 ![image](https://user-images.githubusercontent.com/2743180/60400534-9075c300-9b4b-11e9-9db3-d234c994e29b.png)
 
