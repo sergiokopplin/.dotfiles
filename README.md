@@ -2,7 +2,7 @@ Tested on Ubuntu.
 
 ![image](https://user-images.githubusercontent.com/2743180/60400534-9075c300-9b4b-11e9-9db3-d234c994e29b.png)
 
-Requirements:
+But:
 
 - **Git** Required;
 - **SSH** configured. `ssh-keygen -t rsa -b 4096 -C "sergiokopplin@gmail.com"`;
@@ -16,7 +16,6 @@ cd ~/.dotfiles &&
 
 Also, but manually:
 
-- [Bat](https://github.com/sharkdp/bat/releases)
 - Dracula Chrome DevTools
 - Key to choose the 3rd level: Any Win
 - Screenshot of an area Ctrl + Shift + Alt + 3
