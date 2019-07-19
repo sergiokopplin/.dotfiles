@@ -13,9 +13,9 @@
     - git submodule update --init --recursive
     - . ./settings/system.sh
     - . ./settings/utils.sh
+    # - . ./settings/work.sh
 
 - link:
     ~/.gitconfig: configs/.gitconfig
     ~/.zshrc: configs/.zshrc
     ~/.config/terminator/config: configs/terminator
-    ~/.config/libinput-gestures.conf: configs/libinput-gestures.conf

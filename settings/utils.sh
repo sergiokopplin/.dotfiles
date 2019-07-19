@@ -1,7 +1,6 @@
 #!/bin/bash
 
 sudo snap install code --classic
-sudo snap install postman
 
 function checkApt {
   dpkg -s $1 &> /dev/null  
@@ -23,31 +22,8 @@ checkApt gnome-tweak-tool
 checkApt zsh
 checkApt ruby-full
 checkApt slimbookbattery
-checkApt mysql-workbench
 checkApt terminator
-
-# trackpad
-checkApt xdotool
-checkApt wmctrl
-checkApt libinput-tools
-sudo gpasswd -a $USER input
-git clone https://github.com/bulletmark/libinput-gestures.git
-cd libinput-gestures
-sudo make install (or sudo ./libinput-gestures-setup install)
-libinput-gestures-setup autostart
-libinput-gestures-setup start
-
-# amazon
-checkApt python3-pip
-checkApt jq
-if `gem list eb_deployer -i`; then
-  echo "eb_deployer already installed"
-else 
-  sudo gem install eb_deployer
-fi
-curl -O https://bootstrap.pypa.io/get-pip.py
-python3 get-pip.py --user
-pip3 install awscli --upgrade --user
+mkdir ~/.config/terminator
 
 # fun
 checkApt cowsay
@@ -82,4 +58,3 @@ if [ ! -d "$OMZDIR" ]; then
   chsh -s /bin/zsh
 fi
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
-
