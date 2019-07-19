@@ -28,7 +28,6 @@ mkdir ~/.config/terminator
 # fun
 checkApt cowsay
 checkApt fortunes
-checkApt screenfetch
 if `gem list lolcat -i`; then
   echo "lolcat already installed"
 else 
