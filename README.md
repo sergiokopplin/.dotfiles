@@ -10,20 +10,13 @@ cd ~/.dotfiles &&
 ./install
 ```
 
+Gnome Extensions:
+- Sync via Extensions Sync
+
 Themes:
 - Dracula Chrome DevTools
 - Ant Themes - Dracula Slim
 - Papirus Dark Icon Theme
-
-Gnome Extensions:
-- Remove Alt+Tab Delay
-- Dash to Panel
-- Dash to Dock
-- Panel OSD
-- Noannoyance
-- Remove Dropdown Arrows
-- Screenshot tools
-- User Themes
 
 Keyboard:
 - Key to choose the 3rd level: Any Win
