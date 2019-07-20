@@ -10,15 +10,19 @@ cd ~/.dotfiles &&
 ./install
 ```
 
-Also, but manually:
-
+Themes:
 - Dracula Chrome DevTools
+- Ant Themes - Dracula Slim
 
 Gnome Extensions:
 - Remove Alt+Tab Delay
 - Dash to Panel
 - Dash to Dock
 - Panel OSD
+- Noannoyance
+- Remove Dropdown Arrows
+- Screenshot tools
+- User Themes
 
 Keyboard:
 - Key to choose the 3rd level: Any Win
