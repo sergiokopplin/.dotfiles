@@ -13,6 +13,7 @@ cd ~/.dotfiles &&
 Themes:
 - Dracula Chrome DevTools
 - Ant Themes - Dracula Slim
+- Papirus Dark Icon Theme
 
 Gnome Extensions:
 - Remove Alt+Tab Delay
