@@ -15,8 +15,8 @@ Gnome Extensions:
 
 Themes:
 - Dracula Chrome DevTools
-- Ant Themes - Dracula Slim
-- Papirus Dark Icon Theme
+- Ant Themes - Dracula Slim OR Qogir Dark
+- Papirus Dark Icon Theme or Qogir Dark
 
 Keyboard:
 - Key to choose the 3rd level: Any Win
