@@ -14,14 +14,5 @@ Gnome Extensions:
 - Sync via Extensions Sync
 
 Themes:
-- Dracula Chrome DevTools
-- Ant Themes - Dracula Slim OR Qogir Dark
-- Papirus Dark Icon Theme or Qogir Dark
-
-Keyboard:
-- Key to choose the 3rd level: Any Win
-- Screenshot of an area Ctrl + Shift + Alt + 3
-- Show the overview Alt + Space
-- Maximize Window Shift + Ctrl + Alt + F
-- View Split on left Shift + Ctrl + Alt + {
-- View Split on right Shift + Ctrl + Alt + }
+- Qogir Dark Theme
+- Qogir Dark Icon Theme
