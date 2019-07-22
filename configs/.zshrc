@@ -73,5 +73,5 @@ SPACESHIP_CHAR_SYMBOL='λ '
 #### FUN                         ####
 #####################################
 
-fortune | cowsay | lolcat
+# fortune | cowsay | lolcat
 # fortune /usr/share/games/fortunes/brasil | cowsay | lolcatsource ~/pure10k.zsh
