@@ -53,7 +53,6 @@ zplugin light zsh-users/zsh-autosuggestions
 zplugin light zsh-users/zsh-completions
 zplugin light lukechilds/zsh-nvm
 zplugin light lukechilds/zsh-better-npm-completion
-zplugin light supercrabtree/k
 zplugin ice as"program" pick"bin/git-dsf"
 zplugin light zdharma/zsh-diff-so-fancy
 zplugin light denysdovhan/spaceship-prompt
