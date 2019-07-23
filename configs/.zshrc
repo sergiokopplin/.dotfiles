@@ -55,7 +55,10 @@ zplugin light lukechilds/zsh-nvm
 zplugin light lukechilds/zsh-better-npm-completion
 zplugin ice as"program" pick"bin/git-dsf"
 zplugin light zdharma/zsh-diff-so-fancy
-zplugin light denysdovhan/spaceship-prompt
+
+# zplugin light denysdovhan/spaceship-prompt
+
+zplugin light romkatv/powerlevel10k
 
 #####################################
 #### SHELL CONFIGS               ####
@@ -68,6 +71,13 @@ SPACESHIP_GIT_SYMBOL=""
 SPACESHIP_GIT_BRANCH_PREFIX=""
 # SPACESHIP_USER_SHOW="always"
 SPACESHIP_CHAR_SYMBOL='λ '
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs node_version newline)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=
+POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_last"
+POWERLEVEL9K_HIDE_BRANCH_ICON=true
+POWERLEVEL9K_VCS_HIDE_TAGS=true
+POWERLEVEL9K_HIDE_NODE_VERSION_ICON=true
 
 #####################################
 #### FUN                         ####
