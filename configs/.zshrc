@@ -10,6 +10,8 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 #### ALIAS CONFIGS               ####
 #####################################
 
+alias open-android="scrcpy"
+
 alias run-android="~/Android/Sdk/emulator/emulator -avd Pixel_3_API_28"
 
 alias deploy="
@@ -56,9 +58,9 @@ zplugin light lukechilds/zsh-better-npm-completion
 zplugin ice as"program" pick"bin/git-dsf"
 zplugin light zdharma/zsh-diff-so-fancy
 
-# zplugin light denysdovhan/spaceship-prompt
+zplugin light denysdovhan/spaceship-prompt
 
-zplugin light romkatv/powerlevel10k
+# zplugin light romkatv/powerlevel10k
 
 #####################################
 #### SHELL CONFIGS               ####

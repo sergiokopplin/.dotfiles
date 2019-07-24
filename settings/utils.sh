@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sudo snap install code --classic
+sudo snap install scrcpy
 
 function checkApt {
   dpkg -s $1 &> /dev/null  
