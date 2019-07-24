@@ -24,6 +24,9 @@ checkApt zsh
 checkApt ruby-full
 checkApt slimbookbattery
 checkApt terminator
+checkApt fonts-powerline
+checkApt neofetch
+
 mkdir ~/.config/terminator
 
 # fun
