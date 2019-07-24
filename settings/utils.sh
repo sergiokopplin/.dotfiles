@@ -22,6 +22,7 @@ checkApt curl
 checkApt gnome-tweak-tool
 checkApt zsh
 checkApt ruby-full
+checkApt python
 checkApt slimbookbattery
 checkApt terminator
 checkApt fonts-powerline
