@@ -1,4 +1,4 @@
-Tested on Ubuntu 19.04. Instalattion time -> 40 min~
+Tested on Ubuntu 19.04. Instalattion time -> 40 min
 
 - **Git** Required;
 - **SSH** configured. `ssh-keygen -t rsa -b 4096 -C "sergiokopplin@gmail.com"`;
