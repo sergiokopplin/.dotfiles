@@ -1,5 +1,7 @@
 [global_config]
   window_state = maximise
+  borderless = True
+  extra_styling = False
   tab_position = bottom
   inactive_color_offset = 0.792682926829
   enabled_plugins = EditorPlugin, TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
