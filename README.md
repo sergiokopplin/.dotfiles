@@ -19,7 +19,7 @@ Themes:
 
 ---
 
-Predator Helios 300 Graphic Card fix:
+Predator Helios 300 Graphic Card (driver 418 proprietary) fix:
 
 ```
 Open the file.
