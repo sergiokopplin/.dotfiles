@@ -82,7 +82,7 @@
     allow_bold = False
     icon_bell = False
     background_color = "#1e1f29"
-    background_darkness = 0.95
+    background_darkness = 0.97
     background_type = transparent
     cursor_color = "#aaaaaa"
     cursor_color_fg = False
