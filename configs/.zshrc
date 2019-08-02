@@ -57,6 +57,8 @@ zplugin light lukechilds/zsh-nvm
 zplugin light lukechilds/zsh-better-npm-completion
 zplugin ice as"program" pick"bin/git-dsf"
 zplugin light zdharma/zsh-diff-so-fancy
+zplugin light sobolevn/wakatime-zsh-plugin
+
 # zplugin light MichaelAquilina/zsh-you-should-use
 zplugin light denysdovhan/spaceship-prompt
 
@@ -66,6 +68,8 @@ zplugin light denysdovhan/spaceship-prompt
 
 SPACESHIP_PACKAGE_SHOW="false"
 SPACESHIP_CHAR_SUFFIX=" "
+SPACESHIP_PACKAGE_SHOW="false"
+SPACESHIP_DOCKER_SHOW="false"
 
 #####################################
 #### FUN                         ####
