@@ -12,7 +12,7 @@
 - shell:
     - git submodule update --init --recursive
     - . ./settings/utils.sh
-    # - . ./settings/work.sh
+    - . ./settings/work.sh
 
 - link:
     ~/.gitconfig: configs/.gitconfig

@@ -1,6 +1,8 @@
 #!/bin/bash
 
 sudo snap install code --classic
+
+# android access
 sudo snap install scrcpy
 
 function checkApt {
@@ -16,14 +18,14 @@ function checkApt {
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get autoremove -y
-sudo add-apt-repository ppa:slimbook/slimbook -y
+# sudo add-apt-repository ppa:slimbook/slimbook -y
 
 checkApt curl
 checkApt gnome-tweak-tool
 checkApt zsh
 checkApt ruby-full
 checkApt python
-checkApt slimbookbattery
+# checkApt slimbookbattery
 checkApt terminator
 checkApt fonts-powerline
 checkApt neofetch

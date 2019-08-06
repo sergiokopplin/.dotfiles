@@ -13,10 +13,6 @@ cd ~/.dotfiles &&
 Gnome Extensions:
 - Sync via Extensions Sync
 
-Themes:
-- Qogir Dark Theme
-- Qogir Dark Icon Theme
-
 ---
 
 Predator Helios 300 Graphic Card (driver 418 proprietary) fix:
