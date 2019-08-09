@@ -5,7 +5,7 @@ Tested on Zorin OS 15 Core. Instalattion time -> 40 min
 - **Chrome** Installed;
 
 ```
-git clone https://github.com/sergiokopplin/.dotfiles.git ~/.dotfiles &&
+git clone git@github.com:sergiokopplin/.dotfiles.git ~/.dotfiles &&
 cd ~/.dotfiles &&
 ./install
 ```
