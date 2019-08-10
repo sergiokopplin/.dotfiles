@@ -2,8 +2,10 @@ export NVM_AUTO_USE=true
 export PATH=~/.local/bin:$PATH
 
 # jdk / android studio
-export ANDROID_HOME=~/Android/Sdk
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 #####################################
@@ -12,7 +14,7 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 alias open-android="scrcpy"
 
-alias run-android="~/Android/Sdk/emulator/emulator -avd Pixel_3_API_28"
+alias run-android="~/Android/Sdk/emulator/emulator -avd Pixel"
 
 alias deploy="
   . ~/aws-sts-assumerole/assumerole &&
@@ -76,4 +78,4 @@ SPACESHIP_DOCKER_SHOW="false"
 #####################################
 
 fortune | cowsay | lolcat
-fortune /usr/share/games/fortunes/brasil | cowsay | lolcatsource ~/pure10k.zsh
+# fortune /usr/share/games/fortunes/brasil | cowsay | lolcat
