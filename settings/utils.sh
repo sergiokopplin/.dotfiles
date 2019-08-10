@@ -33,13 +33,13 @@ checkApt neofetch
 mkdir ~/.config/terminator
 
 # fun
-# checkApt cowsay
-# checkApt fortunes
-# if `gem list lolcat -i`; then
-#   echo "lolcat already installed"
-# else 
-#   sudo gem install lolcat
-# fi
+checkApt cowsay
+checkApt fortunes
+if `gem list lolcat -i`; then
+  echo "lolcat already installed"
+else 
+  sudo gem install lolcat
+fi
 
 # zsh
 OMZDIR="$HOME/.oh-my-zsh"

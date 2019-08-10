@@ -59,7 +59,7 @@ zplugin ice as"program" pick"bin/git-dsf"
 zplugin light zdharma/zsh-diff-so-fancy
 zplugin light sobolevn/wakatime-zsh-plugin
 
-# zplugin light MichaelAquilina/zsh-you-should-use
+zplugin light MichaelAquilina/zsh-you-should-use
 zplugin light denysdovhan/spaceship-prompt
 
 #####################################
@@ -75,5 +75,5 @@ SPACESHIP_DOCKER_SHOW="false"
 #### FUN                         ####
 #####################################
 
-# fortune | cowsay | lolcat
-# fortune /usr/share/games/fortunes/brasil | cowsay | lolcatsource ~/pure10k.zsh
+fortune | cowsay | lolcat
+fortune /usr/share/games/fortunes/brasil | cowsay | lolcatsource ~/pure10k.zsh
