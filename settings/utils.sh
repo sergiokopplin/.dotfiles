@@ -28,6 +28,7 @@ checkApt python
 # checkApt slimbookbattery
 checkApt terminator
 checkApt fonts-powerline
+checkApt fonts-firacode
 checkApt neofetch
 
 mkdir ~/.config/terminator
