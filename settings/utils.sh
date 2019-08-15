@@ -32,6 +32,8 @@ checkApt fonts-firacode
 checkApt neofetch
 
 mkdir ~/.config/terminator
+mkdir ~/.config/terminator/plugins
+wget -P ~/.config/terminator/plugins https://raw.githubusercontent.com/mchelem/terminator-editor-plugin/master/editor_plugin.py
 
 # fun
 checkApt cowsay
