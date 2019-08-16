@@ -19,3 +19,8 @@ sudo nano /lib/modprobe.d/nvidia-kms.conf
 # Set value to 0 to disable modesetting
 # options nvidia-drm modeset=1
 ```
+
+```
+DayBreak chrome theme
+https://www.themebeta.com/chrome/theme/1274594
+```
