@@ -61,7 +61,7 @@ zplugin ice as"program" pick"bin/git-dsf"
 zplugin light zdharma/zsh-diff-so-fancy
 zplugin light sobolevn/wakatime-zsh-plugin
 
-zplugin light MichaelAquilina/zsh-you-should-use
+# zplugin light MichaelAquilina/zsh-you-should-use
 zplugin light denysdovhan/spaceship-prompt
 
 #####################################
