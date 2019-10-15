@@ -1,6 +1,5 @@
 [global_config]
   always_split_with_profile = True
-  borderless = True
   enabled_plugins = EditorPlugin, TerminatorThemes, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   extra_styling = False
   inactive_color_offset = 0.792682926829
@@ -50,7 +49,7 @@
   paste = <Primary>v
   prev_tab = None
   reset = None
-  reset_clear = None
+  reset_clear = <Primary>l
   resize_down = None
   resize_left = None
   resize_right = None
