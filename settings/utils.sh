@@ -35,6 +35,8 @@ mkdir ~/.config/terminator
 mkdir ~/.config/terminator/plugins
 wget -P ~/.config/terminator/plugins https://raw.githubusercontent.com/mchelem/terminator-editor-plugin/master/editor_plugin.py
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+
 # fun
 checkApt cowsay
 checkApt fortunes

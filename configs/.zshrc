@@ -48,21 +48,21 @@ source $ZSH/oh-my-zsh.sh
 #### ZPLUGIN CONFIGS             ####
 #####################################
 
-source '/home/kopplin/.zplugin/bin/zplugin.zsh'
+source '/home/kopplin/.zinit/bin/zplugin.zsh'
 autoload -Uz _zplugin
 (( ${+_comps} )) && _comps[zplugin]=_zplugin
 
-zplugin light zdharma/fast-syntax-highlighting
-zplugin light zsh-users/zsh-autosuggestions
-zplugin light zsh-users/zsh-completions
-zplugin light lukechilds/zsh-nvm
-zplugin light lukechilds/zsh-better-npm-completion
-zplugin ice as"program" pick"bin/git-dsf"
-zplugin light zdharma/zsh-diff-so-fancy
-zplugin light sobolevn/wakatime-zsh-plugin
+zinit light zdharma/fast-syntax-highlighting
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-completions
+zinit light lukechilds/zsh-nvm
+zinit light lukechilds/zsh-better-npm-completion
+zinit ice as"program" pick"bin/git-dsf"
+zinit light zdharma/zsh-diff-so-fancy
+zinit light sobolevn/wakatime-zsh-plugin
 
-# zplugin light MichaelAquilina/zsh-you-should-use
-zplugin light denysdovhan/spaceship-prompt
+# zinit light MichaelAquilina/zsh-you-should-use
+zinit light denysdovhan/spaceship-prompt
 
 #####################################
 #### SHELL CONFIGS               ####
@@ -79,3 +79,4 @@ SPACESHIP_DOCKER_SHOW="false"
 
 fortune | cowsay | lolcat
 # fortune /usr/share/games/fortunes/brasil | cowsay | lolcat
+### End of Zinit's installer chunk
