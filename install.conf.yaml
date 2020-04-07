@@ -8,14 +8,11 @@
       stderr: true
 
 - clean: ["~"]
-    
+
 - shell:
     - git submodule update --init --recursive
-    - . ./settings/utils.sh
-    - . ./settings/work.sh
-    - . ./settings/extra.sh
+    - . ./utils.sh
 
 - link:
-    ~/.gitconfig: configs/.gitconfig
-    ~/.zshrc: configs/.zshrc
-    ~/.config/terminator/config: configs/terminator
+    ~/.gitconfig: .gitconfig
+    ~/.zshrc: .zshrc
