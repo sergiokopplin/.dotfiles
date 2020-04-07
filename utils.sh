@@ -17,27 +17,28 @@ brew tap homebrew/cask-fonts
 
 brew install zsh
 
-function checkCask {
-  if brew cask list --versions google-chrome > /dev/null; then
-    echo "$1 already installed"
-  else
-    brew cask install $1
-  fi
-}
+brew cask install google-chrome
+brew cask install firefox
+brew cask install visual-studio-code-insiders
+brew cask install alfred
+brew cask install spotify
+brew cask install iterm2
+brew cask install slack
+brew cask install postman
+brew cask install insomnia
+brew cask install rectangle
+brew cask install whatsapp
+brew cask install notion
+brew cask install github
+brew cask install font-fira-code
+brew cask install android-studio
+brew cask install dozer
+brew cask install react-native-debugger
+brew cask install reactotron
+brew cask install flipper
 
-checkCask google-chrome
-checkCask visual-studio-code-insiders
-checkCask alfred
-checkCask spotify
-checkCask iterm2
-checkCask slack
-checkCask postman
-checkCask rectangle
-checkCask whatsapp
-checkCask notion
-checkCask github
-checkCask font-fira-code
-checkCask android-studio
+brew cask install docker
+brew install docker-compose
 
 # dracula iterm
 git clone https://github.com/dracula/iterm.git /Users/$user/dracula-iterm
