@@ -29,6 +29,10 @@ brew cask install whatsapp
 brew cask install notion
 brew cask install github
 brew cask install font-fira-code
+brew cask install android-studio
 
 # dracula iterm
 git clone https://github.com/dracula/iterm.git /Users/$user/dracula-iterm
+
+# xcode
+# manually
