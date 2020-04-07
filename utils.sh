@@ -16,6 +16,7 @@ brew tap homebrew/cask-versions
 brew tap homebrew/cask-fonts   
 
 brew install zsh
+brew install github/gh/gh
 
 brew cask install google-chrome
 brew cask install firefox
