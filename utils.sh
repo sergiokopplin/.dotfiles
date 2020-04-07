@@ -36,6 +36,7 @@ brew cask install dozer
 brew cask install react-native-debugger
 brew cask install reactotron
 brew cask install flipper
+brew cask install steam
 
 brew cask install docker
 brew install docker-compose
