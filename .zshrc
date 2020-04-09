@@ -11,7 +11,6 @@ plugins=(
   z
 )
 
-
 source $ZSH/oh-my-zsh.sh
 source "/Users/$user/.zinit/bin/zplugin.zsh"
 
@@ -35,5 +34,6 @@ SPACESHIP_DOCKER_SHOW="false"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-### End of Zinit's installer chunk
-### End of Zinit's installer chunk
+
+# . /Users/sergio.kopplin/.asdf/asdf.sh
+# npm i -g typescript

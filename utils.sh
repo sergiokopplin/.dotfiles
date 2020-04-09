@@ -38,6 +38,7 @@ brew cask install react-native-debugger
 brew cask install reactotron
 brew cask install flipper
 brew cask install steam
+brew cask install discord
 
 brew cask install docker
 brew install docker-compose
@@ -47,3 +48,17 @@ git clone https://github.com/dracula/iterm.git /Users/$user/dracula-iterm
 
 # xcode
 # manually
+
+# loft
+brew cask install google-drive-file-stream
+brew cask install mysqlworkbench
+
+# brew install asdf
+# brew install \
+#   coreutils automake autoconf openssl \
+#   libyaml readline libxslt libtool asd \
+#   unzip curl
+ 
+# echo -e "\n. $HOME/.asdf/asdf.sh" >> ~/.zshrc
+ 
+# asdf --version
