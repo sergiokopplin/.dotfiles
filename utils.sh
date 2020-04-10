@@ -14,6 +14,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 
 brew tap homebrew/cask-versions
 brew tap homebrew/cask-fonts   
+brew tap homebrew/cask-drivers
 
 brew install zsh
 brew install github/gh/gh
@@ -39,6 +40,7 @@ brew cask install reactotron
 brew cask install flipper
 brew cask install steam
 brew cask install discord
+brew cask install xbox360-controller-driver-unofficial
 
 brew cask install docker
 brew install docker-compose
