@@ -43,6 +43,7 @@ brew cask install discord
 brew cask install xbox360-controller-driver-unofficial
 brew install homebrew/cask/java
 brew install watchman
+brew install bat
 
 brew cask install docker
 brew install docker-compose
