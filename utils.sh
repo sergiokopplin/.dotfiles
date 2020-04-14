@@ -18,6 +18,10 @@ brew tap homebrew/cask-drivers
 
 brew install zsh
 brew install github/gh/gh
+brew install homebrew/cask/java
+brew install watchman
+brew install bat
+brew install docker-compose
 
 brew cask install google-chrome
 brew cask install firefox
@@ -41,31 +45,12 @@ brew cask install flipper
 brew cask install steam
 brew cask install discord
 brew cask install xbox360-controller-driver-unofficial
-brew install homebrew/cask/java
-brew install watchman
-brew install bat
 brew cask install miro-formerly-realtimeboard
 brew cask install abstract
-
+brew cask install webstorm
 brew cask install docker
-brew install docker-compose
-
-# dracula iterm
-git clone https://github.com/dracula/iterm.git /Users/$user/dracula-iterm
-
-# xcode
-# manually
-
-# loft
 brew cask install google-drive-file-stream
 brew cask install mysqlworkbench
 
-# brew install asdf
-# brew install \
-#   coreutils automake autoconf openssl \
-#   libyaml readline libxslt libtool asd \
-#   unzip curl
- 
-# echo -e "\n. $HOME/.asdf/asdf.sh" >> ~/.zshrc
- 
-# asdf --version
+# dracula iterm
+git clone https://github.com/dracula/iterm.git /Users/$user/dracula-iterm
