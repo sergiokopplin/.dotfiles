@@ -44,6 +44,7 @@ brew cask install xbox360-controller-driver-unofficial
 brew install homebrew/cask/java
 brew install watchman
 brew install bat
+brew cask install miro-formerly-realtimeboard
 
 brew cask install docker
 brew install docker-compose
