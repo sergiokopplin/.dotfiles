@@ -45,6 +45,7 @@ brew install homebrew/cask/java
 brew install watchman
 brew install bat
 brew cask install miro-formerly-realtimeboard
+brew cask install abstract
 
 brew cask install docker
 brew install docker-compose
