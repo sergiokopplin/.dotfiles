@@ -22,6 +22,7 @@ brew install homebrew/cask/java
 brew install watchman
 brew install bat
 brew install docker-compose
+brew install scrcpy
 
 brew cask install google-chrome
 brew cask install firefox
