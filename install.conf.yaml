@@ -17,3 +17,4 @@
 - link:
     ~/.gitconfig: .gitconfig
     ~/.zshrc: .zshrc
+    ~/.p10k.zsh: .p10k.zsh
