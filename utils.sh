@@ -52,6 +52,7 @@ brew cask install webstorm
 brew cask install docker
 brew cask install google-drive-file-stream
 brew cask install mysqlworkbench
+brew cask install graphql-playground
 
 # dracula iterm
 git clone https://github.com/dracula/iterm.git /Users/$user/dracula-iterm
