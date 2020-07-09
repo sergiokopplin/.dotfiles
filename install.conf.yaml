@@ -19,3 +19,4 @@
     ~/.zshrc: .zshrc
     ~/.p10k.zsh: .p10k.zsh
     ~/.hyper.js: .hyper.js
+    ~/.config/karabiner/karabiner.json: karabiner.json
