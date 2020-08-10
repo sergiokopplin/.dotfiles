@@ -7,7 +7,7 @@
 
 user=$(whoami)
 
-REACT_EDITOR=code-insiders
+REACT_EDITOR=code
 
 export ANDROID_SDK=/Users/$user/Library/Android/sdk
 export PATH=/Users/$user/Library/Android/sdk/platform-tools:$PATH

@@ -26,7 +26,7 @@ brew install scrcpy
 
 brew cask install google-chrome
 brew cask install firefox
-brew cask install visual-studio-code-insiders
+brew cask install visual-studio-code
 brew cask install alfred
 brew cask install spotify
 brew cask install iterm2
