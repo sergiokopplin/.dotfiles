@@ -20,6 +20,11 @@ plugins=(
   z
 )
 
+alias docker-stop='docker stop $(docker ps -aq)'
+alias docker-rm-containers='docker rm $(docker ps -aq)'
+alias docker-rm-images='docker rmi $(docker images -q)'
+alias docker-rm='docker-stop && docker-rm-containers && docker-rm-images'
+
 source $ZSH/oh-my-zsh.sh
 source "/Users/$user/.zinit/bin/zplugin.zsh"
 
