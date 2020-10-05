@@ -12,6 +12,7 @@ ZSH_THEME=""
 plugins=(
   git
   z
+  gitfast
 )
 
 alias docker-stop='docker stop $(docker ps -aq)'
@@ -31,13 +32,18 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 zinit light zdharma/zsh-diff-so-fancy
 zinit light lukechilds/zsh-nvm
-zinit light denysdovhan/spaceship-prompt
+# zinit light denysdovhan/spaceship-prompt
+zinit light reobin/typewritten
 
-SPACESHIP_PACKAGE_SHOW="false"
-SPACESHIP_CHAR_SUFFIX=" "
-SPACESHIP_PACKAGE_SHOW="false"
-SPACESHIP_DOCKER_SHOW="false"
+# SPACESHIP_PACKAGE_SHOW="false"
+# SPACESHIP_CHAR_SUFFIX=" "
+# SPACESHIP_PACKAGE_SHOW="false"
+# SPACESHIP_DOCKER_SHOW="false"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+if [ -f ~/Desktop/.dotfiles/.git-completion.bash ]; then
+  . ~/Desktop/.dotfiles/.git-completion.bash
+fi
