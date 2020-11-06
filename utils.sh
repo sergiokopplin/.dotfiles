@@ -32,27 +32,16 @@ brew cask install spotify
 brew cask install iterm2
 brew cask install slack
 brew cask install postman
-brew cask install insomnia
 brew cask install rectangle
 brew cask install whatsapp
 brew cask install notion
-brew cask install github
 brew cask install font-fira-code
-brew cask install android-studio
 brew cask install dozer
-brew cask install react-native-debugger
-brew cask install reactotron
-brew cask install flipper
 brew cask install steam
 brew cask install discord
 brew cask install xbox360-controller-driver-unofficial
-brew cask install miro-formerly-realtimeboard
-brew cask install abstract
-brew cask install webstorm
 brew cask install docker
-brew cask install google-drive-file-stream
 brew cask install mysqlworkbench
-brew cask install graphql-playground
 
 # dracula iterm
 git clone https://github.com/dracula/iterm.git /Users/$user/dracula-iterm

@@ -2,8 +2,6 @@ user=$(whoami)
 
 REACT_EDITOR=code
 
-export ANDROID_SDK=/Users/$user/Library/Android/sdk
-export PATH=/Users/$user/Library/Android/sdk/platform-tools:$PATH
 export ZSH="/Users/$user/.oh-my-zsh"
 export NVM_AUTO_USE=true
 
@@ -46,20 +44,10 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 zinit light zdharma/zsh-diff-so-fancy
 zinit light lukechilds/zsh-nvm
-# zinit light denysdovhan/spaceship-prompt
+
 zinit light reobin/typewritten
-
 TYPEWRITTEN_CURSOR="block"
-
-# SPACESHIP_PACKAGE_SHOW="false"
-# SPACESHIP_CHAR_SUFFIX=" "
-# SPACESHIP_PACKAGE_SHOW="false"
-# SPACESHIP_DOCKER_SHOW="false"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
-if [ -f ~/Desktop/.dotfiles/.git-completion.bash ]; then
-  . ~/Desktop/.dotfiles/.git-completion.bash
-fi
