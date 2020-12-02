@@ -16,21 +16,22 @@ alias docker-rm='docker-stop && docker-rm-containers && docker-rm-images'
 
 alias ga='git add'
 alias gs='git status'
+alias gd='git diff'
 alias gb='git branch'
 alias gbd='gb -D'
 alias gc='git checkout'
 alias gcb='gc -b'
+alias gm='git checkout master && git fetch -p && git pull --rebase --prune $@ && git submodule update --init --recursive'
 alias gf='git fetch -p'
 alias gcommit='git commit'
 alias gcm='gcommit -m'
+alias gam='gcommit -a --amend'
 alias gl='git log --all --graph --decorate --oneline --abbrev-commit'
 alias gpl='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 alias gu='git pull origin $(git rev-parse --abbrev-ref HEAD)'
-alias gp='git push'
-alias gm='git checkout master && git pull origin master && git fetch -p'
 alias gup='git pull --rebase --prune $@ && git submodule update --init --recursive'
-alias gam='gcommit -a --amend'
-alias gdd="git branch --merged | grep -Ev '(^\*|master)' | xargs git branch -d"
+alias gp='git push'
+alias gmm='git merge master'
 
 source $ZSH/oh-my-zsh.sh
 source "/Users/$user/.zinit/bin/zplugin.zsh"
