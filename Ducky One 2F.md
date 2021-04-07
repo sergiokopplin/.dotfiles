@@ -28,21 +28,21 @@ Set Next Track to Fn + Arrow Right
 
 Set Previus Track to Fn + Arrow Left
 - Fn + Alt + Tab for 3 seconds
-- Fn + Arrow Right -> target
-- Fn + Windows Key + G     -> source
+- Fn + Arrow Left -> target
+- Fn + Windows Key + G -> source
 - Fn + Alt
 - Fn + Alt + Tab for 1 second
 
 Set Volume Up to Fn + Arrow Up
 - Fn + Alt + Tab for 3 seconds
-- Fn + Arrow Right -> target
-- Fn + Windows Key + B     -> source
+- Fn + Arrow Up -> target
+- Fn + Windows Key + B -> source
 - Fn + Alt
 - Fn + Alt + Tab for 1 second
 
 Set Volume Down to Fn + Arrow Down
 - Fn + Alt + Tab for 3 seconds
-- Fn + Arrow Right -> target
-- Fn + Windows Key + C     -> source
+- Fn + Arrow Down -> target
+- Fn + Windows Key + C -> source
 - Fn + Alt
 - Fn + Alt + Tab for 1 second
