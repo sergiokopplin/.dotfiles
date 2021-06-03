@@ -21,7 +21,7 @@ alias gb='git branch'
 alias gbd='gb -D'
 alias gc='git checkout'
 alias gcb='gc -b'
-alias gm='git checkout master && git fetch -p && git pull --rebase --prune $@ && git submodule update --init --recursive'
+alias gm='git checkout main && git fetch -p && git pull origin main --rebase --prune $@ && git submodule update --init --recursive'
 alias gf='git fetch -p'
 alias gcommit='git commit'
 alias gcm='gcommit -m'
@@ -31,7 +31,7 @@ alias gpl='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 alias gu='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 alias gup='git pull --rebase --prune $@ && git submodule update --init --recursive'
 alias gp='git push'
-alias gmm='git merge master'
+alias gmm='git merge main'
 
 source $ZSH/oh-my-zsh.sh
 source "/Users/$user/.zinit/bin/zplugin.zsh"
@@ -45,10 +45,19 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 zinit light zdharma/zsh-diff-so-fancy
 zinit light lukechilds/zsh-nvm
+zinit ice depth=1; zinit light romkatv/powerlevel10k
 
-zinit light reobin/typewritten
-TYPEWRITTEN_CURSOR="block"
+# zinit light denysdovhan/spaceship-prompt
+# SPACESHIP_PACKAGE_SHOW=false
+# SPACESHIP_DOCKER_SHOW=false
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+#### FIG ENV VARIABLES ####
+[ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
