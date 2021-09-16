@@ -20,13 +20,9 @@ brew install zsh
 brew install github/gh/gh
 brew install homebrew/cask/java
 brew install watchman
-brew install bat
 brew install docker-compose
-brew install scrcpy
 
-brew cask install cakebrew
 brew cask install google-chrome
-brew cask install firefox
 brew cask install visual-studio-code
 brew cask install alfred
 brew cask install spotify
@@ -35,16 +31,8 @@ brew cask install slack
 brew cask install postman
 brew cask install rectangle
 brew cask install whatsapp
-brew cask install notion
 brew cask install font-fira-code
 brew cask install dozer
 brew cask install steam
-brew cask install discord
-brew cask install xbox360-controller-driver-unofficial
 brew cask install docker
 brew cask install mysqlworkbench
-
-npm install -g npm-quick-run
-
-# dracula iterm
-git clone https://github.com/dracula/iterm.git /Users/$user/dracula-iterm
